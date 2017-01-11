@@ -1,0 +1,238 @@
+.dialog {
+  padding-left: 12px;
+}
+.dialog-btn {
+  height: 49px;
+  width: 100%;
+  font-size: 15px;
+  line-height: 49px;
+}
+.dialog-btn-buy-unvaluable {
+  height: 49px;
+  width: 100%;
+  background-color: #fff;
+  color: #aaa;
+  font-size: 15px;
+  line-height: 49px;
+  text-align: center;
+}
+.dialog-btn-buy-coming {
+  height: 49px;
+  width: 100%;
+  background-color: #fff;
+  color: #aaa;
+  font-size: 15px;
+  line-height: 49px;
+  text-align: center;
+}
+.dialog-btn-cart {
+  width: 50%;
+  background-color: #fff;
+  color: #444;
+  text-align: center;
+}
+.dialog-btn-buy {
+  width: 50%;
+  background-color: #ff5959;
+  color: #fff;
+  text-align: center;
+}
+.dialog-btn-buy-only {
+  height: 49px;
+  width: 100%;
+  background-color: #ff5959;
+  color: #fff;
+  font-size: 15px;
+  line-height: 49px;
+  text-align: center;
+}
+.num-frame-detail {
+  width: 100%;
+  position: relative;
+  height: 104px;
+}
+.num-frame-detail .num-detail-img {
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  height: 80px;
+  width: 80px;
+}
+.num-frame-detail .num-frame-detail-r {
+  height: 104px;
+  position: absolute;
+  left: 92px;
+  right: 48px;
+  top: 21px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #444;
+  line-height: 17px;
+}
+.num-frame-detail .num-frame-detail-r .vip-price {
+  height: 38px;
+}
+.num-frame-detail .num-frame-detail-r .vip-price .vip-price-1 {
+  font-size: 10px;
+  width: 36px;
+  height: 16px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  color: #fff;
+  background-color: #ff5959;
+  padding: 1px 4px;
+  text-align: center;
+  margin-top: 10px;
+}
+.num-frame-detail .num-frame-detail-r .vip-price .vip-price-2 {
+  height: 14px;
+  color: #ff5959;
+  border: 1px solid #ff5959;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding: 1px 5px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 11px;
+}
+.num-frame-detail .num-frame-detail-r .num-frame-detail-r-name {
+  max-height: 17px;
+  overflow: hidden;
+}
+.num-frame-detail .num-frame-detail-r .num-frame-detail-r-sale {
+  margin-top: 7px;
+}
+.num-frame-detail .num-frame-detail-r .num-frame-detail-r-sale .num-frame-detail-r-sale-font {
+  color: #ff5959;
+}
+.num-frame-detail .num-frame-detail-r .num-frame-detail-r-market {
+  margin-left: 6px;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+}
+.num-count-banner {
+  height: 70px;
+  position: relative;
+}
+.num-count-banner .num-title {
+  padding-top: 20px;
+  position: relative;
+  width: auto;
+  height: 17px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #777;
+}
+.num-count-banner .num-count {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  height: 28px;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 28px;
+  color: #aaa;
+  background-color: #f5f5f5;
+}
+.num-count-banner .num-count .num-count-minus {
+  float: left;
+  width: 31px;
+  height: 28px;
+  border-right: solid 1px #fff;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  background-image: url("//a-ssl.duitang.com/uploads/people/201508/10/20150810153701_r8HXS.png");
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.num-count-banner .num-count .num-count-info {
+  float: left;
+  padding: 0 10px;
+  height: 28px;
+}
+.num-count-banner .num-count .num-count-plus {
+  float: left;
+  width: 31px;
+  height: 28px;
+  border-left: solid 1px #fff;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  background-image: url("//a-ssl.duitang.com/uploads/people/201508/10/20150810143850_kPwnB.png");
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.num-count-banner .num-count .num-count-plus, .num-count-banner .num-count .num-count-minus {
+  font-size: 20px;
+}
+.num-btn {
+  overflow: hidden;
+  height: 36px;
+  line-height: 36px;
+  border: 0 none;
+  border-radius: 4px;
+  background-color: #ff5959;
+  outline: 0;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 12px;
+  margin-left: 0px;
+  margin-top: 9px;
+  text-align: center;
+}
+.num-btn, .num, .num-close {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.dialog-tag-group {
+  margin-bottom: 12px;
+}
+.dialog-tag-group dl {
+  margin-top: 12px;
+  position: relative;
+}
+.dialog-tag-group dl label {
+  position: absolute;
+  left: 0px;
+  width: 58px;
+  font-size: 12px;
+  color: #777;
+  line-height: 28px;
+}
+.dialog-tag-group dl dd {
+  padding-left: 58px;
+  margin-bottom: 12px;
+}
+.dialog-tag-group dl dd .dialog-tag {
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  min-width: 60px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.dialog-tag-group dl dd .dialog-tag-btn-on {
+  background-color: #ff5959;
+}
+.dialog-tag-group dl dd .dialog-tag-btn {
+  background-color: #f5f5f5;
+}
+.dialog-tag-group dl dd .dialog_btn_text {
+  color: #3a3a3a;
+  cursor: pointer;
+}
+.dialog-tag-group dl dd .dialog_btn_text_on {
+  color: #fff;
+}
+.dialog-tag-group dl dd .dialog_btn_text_disable {
+  color: #aaa;
+}
